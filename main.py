@@ -87,10 +87,10 @@ TytyMoveSet = {
 }
 Grominet = pocketMonster("Silvestre",50,25,12,"Plante")
 GrominetMoveSet = {
-    "1-" : moveSet("Briquet",50,"Feu","Votre monstre utilise son fidèle briquet pour brûler son adversaire."),
-    "2-" : moveSet("Bec",40,"Normal","Votre monstre possède un bec solide, son adversaire s'apprête à le découvrir."),
-    "3-" : moveSet("Plume enflammée",70,"Feu","Votre monstre s'attaque à son adversaire avec des plumes aussi tranchantes que brûlante."),
-    "4-" : moveSet("Serre acérées",80,"Normal","Votre monstre possède des serres plutôt dangereuse.")
+    "1-" : moveSet("Morsure",50,"Normal","Votre monstre utilise ses griffes pour une multitude de coups."),
+    "2-" : moveSet("Griffes",40,"Normal","Votre monstre possède une mâchoire de prédateur, attention à ses crocs."),
+    "3-" : moveSet("Fouet de feuilles",70,"Plante","Votre monstre est capable de se créer un fouet fait de feuilles."),
+    "4-" : moveSet("Pattoune",80,"Normal","Votre monstre possède des coussinets capable de destruction massive sur le corps de son adversaire.")
 }
 
 print("Un monstre apparaît ! C'est un" , Grominet.getName() , "sauvage, vite" , Tyty.getName() , "en avant !")
